@@ -1,0 +1,3 @@
+layout: {qmk_keyboard: bastardkb/skeletyl/v2/splinky_3}
+layers:
+  default: [BT CLR, W, F, P, B, J, L, U, Y, ;, A, R, S, T, G, M, N, E, I, O, Z, X, C, D, V, K, H, ',', ., /, '&bootloader', LSHFT, BSPC, RET, SPACE, '&bootloader']
