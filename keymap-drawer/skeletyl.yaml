@@ -5,8 +5,8 @@ layers:
   - W
   - F
   - P
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - B
+  - J
   - L
   - U
   - Y
