@@ -14,19 +14,8 @@
 #define ILLUST  6
 #define GAME    7
 
-#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
-
 / {
     behaviors {
-        as: auto_shift {
-            compatible = "zmk,behavior-hold-tap";
-            label = "AUTO_SHIFT";
-            #binding-cells = <2>;
-            tapping-term-ms = <135>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
@@ -168,17 +157,17 @@
 
         num_layer {
             bindings = <
-    &none       &none       &none       &none       &none       AS(LBKT)        AS(N7)      AS(N8)      AS(N9)  AS(RBKT)
-    &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &none       AS(EQUAL)       AS(N4)      AS(N5)      AS(N6)  AS(SEMI)
-    &none       &none       &none       &none       &none       AS(GRAVE)       AS(N1)      AS(N2)      AS(N3)  AS(BSLH)
-                            &none       &trans      &none       &as LPAR DOT    &as RPAR N0 AS(MINUS)
+    &none       &none       &none       &none       &none       LBKT        N7      N8      N9  RBKT
+    &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &none       EQUAL       N4      N5      N6  SEMI
+    &none       &none       &none       &none       &none       GRAVE       N1      N2      N3  BSLH
+                            &none       &trans      &none       &as LPAR DOT    &as RPAR N0 MINUS
             >;
         };
 
        prgrm_layer {
            bindings = <
     &none       &none       &none       &none       &none       &none   &none       &none       &none   &none
-    &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &none       &none   AS(LBKT)    AS(RBKT)    &none   AS(SEMI)
+    &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &none       &none   LBKT    RBKT    &none   SEMI
     &none       &none       &none       &none       &none       &none   &kp EXCL    &kp EQUAL   &none   &kp FSLH
                             &trans      &none       &none       &kp LPAR    &kp RPAR    &kp UNDER
             >;
