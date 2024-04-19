@@ -215,7 +215,7 @@ layers:
   - '&continue'
   - ''
   - ''
-  - {t: LSHIFT, h: sticky}
+  - ''
   - '&caps_word'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
