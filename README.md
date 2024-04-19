@@ -1,4 +1,4 @@
-# zmk-config-skeletyl
+G# zmk-config-skeletyl
 
 fork from [This skeletyl zmk repo](https://github.com/cyanindya/zmk-config), dev branch, and update the setting for pins(amoeba)
 
@@ -6,4 +6,4 @@ fork from [This skeletyl zmk repo](https://github.com/cyanindya/zmk-config), dev
 
 drawn with this [workflow](https://github.com/caksoylar/keymap-drawer)
 
-![Keymap](./keymap-drawer/berylline.svg)
+![Keymap](./keymap-drawer/skeletyl.svg)
