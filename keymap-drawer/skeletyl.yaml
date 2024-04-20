@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: bastardkb/skeletyl/v2/splinky_3}
 layers:
   default:
-  - ''
+  - /
   - W
   - F
   - P
@@ -10,7 +10,7 @@ layers:
   - L
   - U
   - Y
-  - {t: ▽, type: trans}
+  - ;
   - {t: A, h: shortcut}
   - {t: R, h: Ctl+ LWIN}
   - {t: S, h: Ctl+ LSHIFT}
