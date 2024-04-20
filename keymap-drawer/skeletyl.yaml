@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: bastardkb/skeletyl/v2/splinky_3}
 layers:
   default:
-  - /
+  - {t: '"', s: ''''}
   - W
   - F
   - P
