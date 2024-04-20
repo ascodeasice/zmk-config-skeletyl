@@ -570,6 +570,13 @@
             bindings = <&kp GRAVE &kp GRAVE &kp GRAVE &kp ENTER &kp GRAVE &kp GRAVE &kp GRAVE &kp UP &kp ENTER>;
             label = "CODE_BLOCK";
         };
+
+        anfn: anfn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LPAR &kp RPAR &kp SPACE &kp EQUAL &kp GT>;
+            label = "ANFN";
+        };
     };
 
     keymap {
@@ -625,10 +632,10 @@
 
         shortcut_layer {
             bindings = <
-&trans  &trans      &md_link      &paren_word     &trans                       &trans  &true      &false    &length  &trans
-&trans  &stu_id     &index_i_j_k  &index_0_1_2    &code_block                  &trans  &export    &default  &fun     &return
-&none   &v_replace  &v_save_exit  &localhost_url  &import                      &value  &continue  &none     &none    &none
-                                  &none           &caps_word   &trans  &trans  &none   &none
+&trans  &trans      &md_link      &paren_word     &trans                               &trans  &true      &false    &length  &trans
+&trans  &stu_id     &index_i_j_k  &index_0_1_2    &code_block                          &trans  &export    &default  &fun     &return
+&none   &v_replace  &v_save_exit  &localhost_url  &import                              &value  &continue  &anfn     &none    &none
+                                  &none           &caps_word   &sk LEFT_SHIFT  &trans  &none   &none
             >;
         };
     };
