@@ -31,12 +31,12 @@ layers:
   - {t: ',', h: LEFT ALT}
   - {t: ., h: LCTRL}
   - ''
-  - ''
+  - '&key_repeat'
   - LSHIFT
   - {t: BACKSPACE, h: sym}
   - {t: ENTER, h: num}
   - {t: SPACE, h: nav}
-  - ''
+  - '&key_repeat'
   nav:
   - ''
   - Alt+ F4
