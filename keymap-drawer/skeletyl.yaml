@@ -213,12 +213,12 @@ layers:
   - '&import'
   - '&value'
   - '&continue'
-  - ''
+  - '&anfn'
   - ''
   - ''
   - ''
   - '&caps_word'
-  - {t: ▽, type: trans}
+  - {t: LEFT SHIFT, h: sticky}
   - {t: ▽, type: trans}
   - ''
   - ''
