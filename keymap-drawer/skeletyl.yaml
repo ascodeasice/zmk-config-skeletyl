@@ -21,7 +21,7 @@ layers:
   - {t: E, h: Ctl+ LSHIFT}
   - {t: I, h: Ctl+ LWIN}
   - {t: O, h: LSHIFT}
-  - ''
+  - {t: MEDIA_LAYER, h: toggle}
   - {t: K, h: LCTRL}
   - {t: C, h: LEFT ALT}
   - {t: D, h: LEFT WIN}
@@ -170,7 +170,7 @@ layers:
   - BRI DEC
   - BRI INC
   - ''
-  - {t: ▽, type: trans}
+  - BT CLR
   - '&bootloader'
   - {t: ▽, type: trans}
   - ''
