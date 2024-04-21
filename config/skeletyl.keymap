@@ -632,9 +632,9 @@
 
         shortcut_layer {
             bindings = <
-&trans  &trans      &md_link      &paren_word     &trans                               &trans  &true      &false    &length  &trans
-&trans  &stu_id     &index_i_j_k  &index_0_1_2    &code_block                          &trans  &export    &default  &fun     &return
-&none   &v_replace  &v_save_exit  &localhost_url  &import                              &value  &continue  &anfn     &none    &none
+&trans  &trans      &md_link      &paren_word     &trans                               &trans  &true    &false     &length  &trans
+&trans  &stu_id     &index_i_j_k  &index_0_1_2    &code_block                          &trans  &export  &default   &fun     &return
+&none   &v_replace  &v_save_exit  &localhost_url  &none                                &none   &import  &continue  &anfn    &none
                                   &none           &caps_word   &sk LEFT_SHIFT  &trans  &none   &none
             >;
         };
