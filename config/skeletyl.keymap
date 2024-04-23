@@ -614,9 +614,9 @@
         num_layer {
             label = "Num";
             bindings = <
-&none   &f1to3  &f4to6          &f7to9              &none                         &none   &kp F10  &kp F11    &kp F12  &none
-&kp N1  &kp N2  &kp N3          &kp N4              &kp N5                        &kp N6  &kp N7   &kp N8     &kp N9   &kp N0
-&none   &none   &mt PAGE_UP UP  &mt PAGE_DOWN DOWN  &none                         &none   &none    &kp COMMA  &kp DOT  &none
+&none   &f1to3  &f4to6          &f7to9              &none                         &none   &kp F10        &kp F11    &kp F12  &none
+&kp N1  &kp N2  &kp N3          &kp N4              &kp N5                        &kp N6  &kp N7         &kp N8     &kp N9   &kp N0
+&none   &none   &mt PAGE_UP UP  &mt PAGE_DOWN DOWN  &none                         &none   &kp BACKSPACE  &kp COMMA  &kp DOT  &none
                                 &none               &kp SPACE  &kp ENTER  &trans  &trans  &none
             >;
         };
