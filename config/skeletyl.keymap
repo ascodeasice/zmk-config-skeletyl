@@ -302,6 +302,30 @@
             key-positions = <8 7>;
             layers = <2>;
         };
+
+        line_start {
+            bindings = <&kp CARET>;
+            key-positions = <16 23>;
+            layers = <0>;
+        };
+
+        line_end {
+            bindings = <&kp DOLLAR>;
+            key-positions = <17 24>;
+            layers = <0>;
+        };
+
+        exclamation {
+            bindings = <&kp EXCL>;
+            key-positions = <18 25>;
+            layers = <0>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <22 13>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -636,6 +660,15 @@
 &trans  &stu_id     &index_i_j_k  &index_0_1_2    &code_block                          &trans  &export  &default   &fun     &return
 &none   &v_replace  &v_save_exit  &localhost_url  &none                                &none   &import  &continue  &anfn    &none
                                   &none           &caps_word   &sk LEFT_SHIFT  &trans  &none   &none
+            >;
+        };
+
+   function_layer {
+            bindings = <
+&trans          &trans        &trans              &trans         &trans    &trans   &kp F7   &kp F8  &kp F9  &trans
+&kp LEFT_SHIFT  &kp LC(LWIN)  &kp LC(LEFT_SHIFT)  &kp LA(LCTRL)  &trans    &kp F10  &kp F4   &kp F5  &kp F6  &none
+ &trans               &kp LCTRL     &kp LEFT_ALT        &kp LWIN &trans &trans  &kp F1   &kp F2  &kp F3 &trans
+                                                 &trans &trans         &trans    &kp F11  &kp F12 &trans
             >;
         };
     };
