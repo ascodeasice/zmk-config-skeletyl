@@ -326,6 +326,12 @@
             key-positions = <22 12>;
             layers = <0>;
         };
+
+        underscore {
+            bindings = <&kp UNDER>;
+            key-positions = <11 21>;
+            layers = <0>;
+        };
     };
 
     macros {
