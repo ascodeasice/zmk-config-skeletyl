@@ -222,6 +222,43 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
+  function:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - Ctl+ LWIN
+  - Ctl+ LEFT SHIFT
+  - Alt+ LCTRL
+  - {t: ▽, type: trans}
+  - F10
+  - F4
+  - F5
+  - F6
+  - ''
+  - {t: ▽, type: trans}
+  - LCTRL
+  - LEFT ALT
+  - LWIN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F11
+  - F12
+  - {t: ▽, type: trans}
 combos:
 - p: [2, 3]
   k: V
@@ -322,3 +359,15 @@ combos:
 - p: [8, 7]
   k: '&sym_or'
   l: [sym]
+- p: [16, 23]
+  k: ^
+  l: [default]
+- p: [17, 24]
+  k: $
+  l: [default]
+- p: [18, 25]
+  k: '!'
+  l: [default]
+- p: [22, 13]
+  k: ':'
+  l: [default]
