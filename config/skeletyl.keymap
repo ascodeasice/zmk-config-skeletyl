@@ -609,7 +609,7 @@
         default_layer {
             bindings = <
 &swap_quote  &kp W           &kp F             &kp P               &kp B                                     &kp J        &kp L               &kp U               &kp Y           &kp SEMI
-&lt 5 A      &mt LC(LWIN) R  &mt LC(LSHIFT) S  &mt LC(LEFT_ALT) T  &kp G                                     &kp M        &mt LC(LEFT_ALT) N  &mt LC(LSHIFT) E    &mt LC(LWIN) I  &mt LSHIFT O
+&lt 5 A      &mt LC(LWIN) R  &mt LC(LSHIFT) S  &mt LC(LEFT_ALT) T  &kp G                                     &kp M        &mt LC(LEFT_ALT) N  &mt LC(LSHIFT) E    &mt LC(LWIN) I  &lt 6 O
 &to 4        &mt LCTRL K     &mt LEFT_ALT C    &mt LEFT_WIN D      &none                                     &none        &mt LEFT_GUI H      &mt LEFT_ALT COMMA  &mt LCTRL DOT   &none
                                                &key_repeat         &kp LSHIFT  &lt 2 BACKSPACE  &lt 3 ENTER  &lt 1 SPACE  &key_repeat
             >;
