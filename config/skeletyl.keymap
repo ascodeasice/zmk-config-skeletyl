@@ -323,7 +323,7 @@
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <13 23>;
+            key-positions = <22 12>;
             layers = <0>;
         };
     };
@@ -638,10 +638,10 @@
         num_layer {
             label = "Num";
             bindings = <
-&none        &kp ASTRK    &kp MINUS       &kp PLUS            &none        &none   &kp EQUAL      &kp SLASH     &trans       &none
-&mt LGUI N1  &mt LALT N2  &mt LSHFT N3    &mt LCTRL N4        &kp N5       &kp N6  &mt LCTRL N7   &mt LSHFT N8  &mt LALT N9  &mt LGUI N0
-&none    &kp COLON   &mt PAGE_UP UP  &mt PAGE_DOWN DOWN  &none                         &none   &kp BACKSPACE  &kp COMMA  &kp DOT  &none
-                                &none               &kp SPACE  &kp ENTER  &trans  &trans  &none
+&none        &kp ASTRK    &kp MINUS       &kp PLUS            &none                         &none   &kp EQUAL      &kp SLASH     &trans       &none
+&mt LGUI N1  &mt LALT N2  &mt LSHFT N3    &mt LCTRL N4        &kp N5                        &kp N6  &mt LCTRL N7   &mt LSHFT N8  &mt LALT N9  &mt LGUI N0
+&none        &kp COLON    &mt PAGE_UP UP  &mt PAGE_DOWN DOWN  &none                         &none   &kp BACKSPACE  &kp COMMA     &kp DOT      &none
+                                          &none               &kp SPACE  &kp ENTER  &trans  &trans  &none
             >;
         };
 
