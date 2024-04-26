@@ -359,15 +359,15 @@ combos:
 - p: [8, 7]
   k: '&sym_or'
   l: [sym]
-- p: [16, 23]
+- p: [16, 26]
   k: ^
   l: [default]
-- p: [17, 24]
+- p: [17, 27]
   k: $
   l: [default]
-- p: [18, 25]
+- p: [28, 18]
   k: '!'
   l: [default]
-- p: [22, 13]
+- p: [13, 23]
   k: ':'
   l: [default]
