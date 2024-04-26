@@ -20,7 +20,7 @@ layers:
   - {t: N, h: Ctl+ LEFT ALT}
   - {t: E, h: Ctl+ LSHIFT}
   - {t: I, h: Ctl+ LWIN}
-  - {t: O, h: LSHIFT}
+  - {t: O, h: function}
   - {t: MEDIA_LAYER, h: toggle}
   - {t: K, h: LCTRL}
   - {t: C, h: LEFT ALT}
@@ -242,7 +242,7 @@ layers:
   - F4
   - F5
   - F6
-  - ''
+  - {type: held}
   - {t: ▽, type: trans}
   - LCTRL
   - LEFT ALT
