@@ -4,7 +4,7 @@ layers:
   - {t: '"', s: ''''}
   - W
   - F
-  - P
+  - {t: P, h: Gui+ LSHIFT}
   - B
   - J
   - L
