@@ -569,7 +569,7 @@
         v_save_exit: v_save_exit {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ESCAPE &kp LS(Z) &kp LS(Z)>;
+            bindings = <&kp ESCAPE &kp COLON &kp W &kp Q &kp RET>;
             label = "V_SAVE_EXIT";
         };
 
