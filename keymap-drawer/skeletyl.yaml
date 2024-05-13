@@ -192,7 +192,7 @@ layers:
   - '&paren_word'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&true'
+  - '&sql_select_all'
   - '&false'
   - '&length'
   - {t: ▽, type: trans}
