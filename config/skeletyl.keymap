@@ -213,8 +213,8 @@
             layers = <0>;
         };
 
-        s_eq {
-            bindings = <&s_eq>;
+        language_switch {
+            bindings = <&language_switch>;
             key-positions = <7 8>;
             timeout-ms = <30>;
             layers = <0>;
@@ -606,6 +606,13 @@
             #binding-cells = <0>;
             bindings = <&kp LS(S) &kp LS(E) &kp LS(L) &kp LS(E) &kp LS(C) &kp LS(T) &kp SPACE &kp STAR &kp SPACE &kp LS(F) &kp LS(R) &kp LS(O) &kp LS(M) &kp SPACE>;
             label = "SQL_SELECT_ALL";
+        };
+
+        language_switch: language_switch {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(SPACE)>;
+            label = "LANGUAGE_SWITCH";
         };
     };
 
