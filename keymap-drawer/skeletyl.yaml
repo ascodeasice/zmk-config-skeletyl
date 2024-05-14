@@ -318,7 +318,7 @@ combos:
   k: '&key'
   l: [default]
 - p: [7, 8]
-  k: '&s_eq'
+  k: '&language_switch'
   l: [default]
 - p: [1, 3]
   k: '&home_dir'
