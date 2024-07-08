@@ -31,7 +31,7 @@ layers:
   - {t: ',', h: LEFT ALT}
   - {t: ., h: LCTRL}
   - ''
-  - '&key_repeat'
+  - '&mkp LCLK'
   - LSHIFT
   - {t: BACKSPACE, h: sym}
   - {t: ENTER, h: num}
@@ -94,7 +94,7 @@ layers:
   - (
   - )
   - '&'
-  - {t: '"', s: ''''}
+  - '|'
   - ''
   - '@'
   - '#'
