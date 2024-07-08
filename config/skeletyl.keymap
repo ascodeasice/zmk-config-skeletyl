@@ -624,7 +624,7 @@
 &tmux_prefix  &kp W           &kp F             &mt LG(LSHIFT) P    &kp B                                     &kp J        &kp L               &kp U               &kp Y           &kp SEMI
 &lt 5 A       &mt LC(LWIN) R  &mt LC(LSHIFT) S  &mt LC(LEFT_ALT) T  &kp G                                     &kp M        &mt LC(LEFT_ALT) N  &mt LC(LSHIFT) E    &mt LC(LWIN) I  &lt 6 O
 &to 4         &mt LCTRL K     &mt LEFT_ALT C    &mt LEFT_WIN D      &none                                     &none        &mt LEFT_GUI H      &mt LEFT_ALT COMMA  &mt LCTRL DOT   &none
-                                                &key_repeat         &kp LSHIFT  &lt 2 BACKSPACE  &lt 3 ENTER  &lt 1 SPACE  &key_repeat
+                                                &mkp LCLK           &kp LSHIFT  &lt 2 BACKSPACE  &lt 3 ENTER  &lt 1 SPACE  &key_repeat
             >;
         };
 
@@ -642,7 +642,7 @@
             label = "Sym";
             bindings = <
 &trans    &kp ASTRK  &kp COMMA  &kp DOT     &none                           &none                 &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &none
-&kp EXCL  &kp GRAVE  &kp SEMI   &kp EQUAL   &kp PERCENT                     &kp BACKSPACE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &swap_quote
+&kp EXCL  &kp GRAVE  &kp SEMI   &kp EQUAL   &kp PERCENT                     &kp BACKSPACE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp PIPE
 &none     &kp AT     &kp HASH   &kp DOLLAR  &none                           &none                 &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET      &none
                                 &none       &trans       &trans  &kp ENTER  &mt LEFT_SHIFT SPACE  &none
             >;
